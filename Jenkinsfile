@@ -27,7 +27,7 @@ pipeline{
 
         stage('Git Checkout'){
             steps{
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/nishashah-dotcom/SpringBoot-WebApplication.git'
+                git branch: 'master', changelog: false, poll: false, url: 'https://github.com/Nisha-Shah29/SpringBoot-WebApplication.git'
             }
         }
         stage('Code Compile'){
